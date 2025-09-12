@@ -26,8 +26,8 @@
 - 🔧 可用性：开源研究，可在现有模型上应用
 
 ### 🔧 开源项目 /实用工具
+除了论文模型外，这里有几个实际可以拿来试的视频 / 背景移除 / matting 工具 / repo：  
 
-除了论文模型外，这里有几个实际可以拿来试的视频 /背景移除 /matting 工具／repo：
-	•	MatAnyone GitHub 项目  ￼
-	•	Real-Time High-Resolution Background Matting (BackgroundMattingV2)：支持 4K@30fps 或 HD@60fps，如果有较好的 GPU，可用于高分辨率视频背景去除。 ￼
-	•	BackgroundRemover by nadermx：这个是比较轻量／CLI 风格的工具，可以 image + video background removal。 ￼
+- [MatAnyone GitHub 项目](https://github.com/pq-yang/MatAnyone?utm_source=chatgpt.com)  
+- [Real-Time High-Resolution Background Matting (BackgroundMattingV2)](https://github.com/PeterL1n/BackgroundMattingV2?utm_source=chatgpt.com)：支持 4K@30fps 或 HD@60fps，如果有较好的 GPU，可用于高分辨率视频背景去除。  
+- [BackgroundRemover by nadermx](https://github.com/nadermx/backgroundremover?utm_source=chatgpt.com)：比较轻量 / CLI 风格的工具，可以用于 image + video background removal。  
