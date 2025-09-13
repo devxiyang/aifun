@@ -34,5 +34,50 @@
 
 
 ## 图片背景移除（开源模型&项目）
-### InSPyReNet（2022）
-- 可运行项目 [github](https://github.com/plemeri/transparent-background)
+
+### U²‑Net (2020)
+📄 [论文 / GitHub](https://github.com/xuebinqin/U-2-Net)  
+📝 特点：Nested U 结构 + Residual U‑Blocks，多尺度特征；轻量版 U2Netp；适合通用前景/背景分割任务  
+🔧 可用性：完全开源；支持 CPU / GPU 推理；工具集成如 rembg  
+⚡ 推理性能：全尺寸 ~176MB，320×320 图像 ~30FPS；轻量版 ~4.7MB，约40FPS；中等分辨率效果佳  
+
+---
+
+### MODNet (2020)
+📄 [论文 / GitHub](https://github.com/ZHKKKe/MODNet)  
+📝 特点：轻量网络 + 多尺度特征融合 + e-ASPP + SOC 子目标一致性；trimap-free；适合人像背景移除  
+🔧 可用性：开源；实时视频/静态图像推理  
+⚡ 推理性能：1080Ti 下静态图像 ~67FPS；高分辨率需降采样；精度好于轻量显著性模型  
+
+---
+
+### BiRefNet (2024)
+📄 [论文 / GitHub](https://github.com/ZhengPeng7/BiRefNet)  
+📝 特点：双向参考机制，高分辨率输入支持；边缘细节和复杂背景处理效果好  
+🔧 可用性：开源；提供多版本（轻量 / 高精度 / HR）  
+⚡ 推理性能：HR 可处理 2048×2048 图像；显存需求高；精度优秀  
+
+---
+
+### InSPyReNet (2022)
+📄 [论文 / GitHub](https://github.com/plemeri/InSPyReNet)  
+可运行项目 [github](https://github.com/plemeri/transparent-background)
+📝 特点：图像金字塔 + 多尺度处理，高分辨率显著性分割；边缘与复杂背景效果好  
+🔧 可用性：MIT 许可开源；工具集成支持批量图像处理  
+⚡ 推理性能：速度略慢于 U²‑Net；高分辨率效果佳；精度高于 U²‑Net  
+
+---
+
+### rembg (2020)
+📄 [GitHub](https://github.com/danielgatis/rembg)  
+📝 特点：工具包 + 多个模型集成（U²‑Net 系列）；支持各种输入输出格式  
+🔧 可用性：易用，生态成熟；可切换不同模型权衡速度与精度  
+⚡ 推理性能：速度取决 backend；轻量版快速，全版消耗高；精度与所用模型相关  
+
+---
+
+### ToonOut (BiRefNet fine-tuned) (2024)
+📄 [GitHub](https://github.com/ZhengPeng7/BiRefNet)  
+📝 特点：基于 BiRefNet 微调，优化卡通 / 动漫风格；半透明/边缘处理效果好  
+🔧 可用性：开源权重 + 数据集提供  
+⚡ 推理性能：硬件依赖较高；Pixel Accuracy 可达 ~99%+；支持中高分辨率动漫图像  
