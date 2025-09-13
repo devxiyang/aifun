@@ -77,7 +77,8 @@
 ---
 
 ### ToonOut (BiRefNet fine-tuned) (2024)
-📄 [GitHub](https://github.com/ZhengPeng7/BiRefNet)  
+📄 [论文](https://arxiv.org/abs/2509.06839)  
+
 📝 特点：基于 BiRefNet 微调，优化卡通 / 动漫风格；半透明/边缘处理效果好  
 🔧 可用性：开源权重 + 数据集提供  
 ⚡ 推理性能：硬件依赖较高；Pixel Accuracy 可达 ~99%+；支持中高分辨率动漫图像  
