@@ -30,4 +30,9 @@
 
 - [MatAnyone GitHub 项目](https://github.com/pq-yang/MatAnyone?utm_source=chatgpt.com)  
 - [Real-Time High-Resolution Background Matting (BackgroundMattingV2)](https://github.com/PeterL1n/BackgroundMattingV2?utm_source=chatgpt.com)：支持 4K@30fps 或 HD@60fps，如果有较好的 GPU，可用于高分辨率视频背景去除。  
-- [BackgroundRemover by nadermx](https://github.com/nadermx/backgroundremover?utm_source=chatgpt.com)：比较轻量 / CLI 风格的工具，可以用于 image + video background removal。  
+- [BackgroundRemover by nadermx](https://github.com/nadermx/backgroundremover?utm_source=chatgpt.com)：比较轻量 / CLI 风格的工具，可以用于 image + video background removal。
+
+
+## 图片背景移除（开源模型&项目）
+### InSPyReNet（2022）
+- 可运行项目 [github](https://github.com/plemeri/transparent-background)
