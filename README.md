@@ -33,7 +33,7 @@
 - [BackgroundRemover by nadermx](https://github.com/nadermx/backgroundremover?utm_source=chatgpt.com)：比较轻量 / CLI 风格的工具，可以用于 image + video background removal。
 
 
-## 图片背景移除（开源模型&项目）
+## 🖼️ 图片背景移除（开源模型&项目）
 
 ### U²‑Net (2020)
 📄 [论文 / GitHub](https://github.com/xuebinqin/U-2-Net)  
