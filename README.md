@@ -73,6 +73,9 @@
 ### PDFNet 
 📄 [论文 / GitHub](https://github.com/Tennine2077/PDFNet)  
 
+### BEN2
+📄 [论文 / GitHub](https://github.com/PramaLLC/BEN2) 
+
 ### DiffDIS
 📄 [论文 / GitHub](https://github.com/qianyu-dlut/DiffDIS)  
 
