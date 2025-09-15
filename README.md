@@ -35,6 +35,8 @@
 
 ## 🖼️ 图片背景移除（开源模型&项目）
 
+> 有一个DIS的汇总 https://github.com/Tennine2077/Awesome-Dichotomous-Image-Segmentation
+
 ### U²‑Net (2020)
 📄 [论文 / GitHub](https://github.com/xuebinqin/U-2-Net)  
 📝 特点：Nested U 结构 + Residual U‑Blocks，多尺度特征；轻量版 U2Netp；适合通用前景/背景分割任务  
