@@ -68,6 +68,12 @@
 
 ---
 
+### PDFNet 
+📄 [论文 / GitHub](https://github.com/Tennine2077/PDFNet)  
+
+### DiffDIS
+📄 [论文 / GitHub](https://github.com/qianyu-dlut/DiffDIS)  
+
 ### rembg (2020)
 📄 [GitHub](https://github.com/danielgatis/rembg)  
 📝 特点：工具包 + 多个模型集成（U²‑Net 系列）；支持各种输入输出格式  
